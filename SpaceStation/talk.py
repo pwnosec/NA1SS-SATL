@@ -1,5 +1,5 @@
 from skyfield.api import Topos, load
-import time
+import time 
 
 # Load satellite data
 satellites = load.tle_file('http://www.celestrak.com/NORAD/elements/stations.txt')
